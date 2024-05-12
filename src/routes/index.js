@@ -25,6 +25,7 @@ export const publicRoutes = [
     { path: '/products', component: Products },
     { path: '/product/:id', component: Product },
     { path: '/cart', component: Cart },
+    {path:'/vnpay/payment/success',component:PurchaseOrder }
     // { path: '/purchase/order', component: PurchaseOrder },
 ];
 
