@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    // height: 100vh;
+    min-height: 100vh;
+    position: relative;
+}
+
+.left-side {
+    width: 50%;
+    // height: 100%;
+}
+
+.right-side {
+    background-color: #f3e8d4;
+    width: 50%;
+    // height: 100vh; /* Sử dụng chiều cao của cửa sổ trình duyệt */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.content {
+    position: absolute;
+}
+
+.loading {
+    position: fixed;
+    /* top: 25%; */
+    right: 48%;
+    // /* width: 100%;
+}
